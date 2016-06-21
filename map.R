@@ -49,6 +49,8 @@ ggplot() +
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
         plot.background=element_blank())
+ggsave('africa.pdf')
+ggsave('africa.png')
 
 # Map of Chowkwe in Mozambique
 ggplot() +
@@ -72,4 +74,6 @@ ggplot() +
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
         plot.background=element_blank())
+ggsave('mozambique.pdf')
+ggsave('mozambique.png')
 
